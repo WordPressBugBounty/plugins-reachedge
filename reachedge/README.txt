@@ -2,8 +2,8 @@
 Contributors: REWordPressPlugin
 Tags: LOCALiQ, Lead Conversion, Call Tracking, Form Tracking, Email Tracking
 Requires at least: 2.7
-Tested up to: 6.4
-Stable tag: 1.9.1
+Tested up to: 6.9
+Stable tag: 1.10
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 
@@ -15,16 +15,15 @@ The LocaliQ WordPress plugin adds the tracking code to the WordPress site.  This
 
 The required javascript is loaded from a CDN at cdn.rlets.com/capture_static/mms/mms.js. This file is under continuing development to provide the best performance and stability across all browser and OS combinations.
 
-As new features and functionality are added to LocaliQ Tracking, those updates will be rolled out through the mms.js file, and no updates of this plugin will be required.
+As new features and functionality are added to LocaliQ Tracking, those updates will be rolled out through the mms.js file, and no updates of this plugin will be required. 
 
 For more information, visit https://localiq.com.
 
 == Installation ==
 
 1. Activate plugin.
-2. In the WordPress dashboard, navigate to the 'Settings' menu.
-3. Select the 'LOCALiQ Tracking Code' option from the menu.
-4. Enter your tracking code ID into the ID field, and click the 'Save Changes' button.
+2. Select the 'LOCALiQ Tracking Code' option from the left sidebar.
+3. Enter your tracking code ID into the ID field, and click the 'Save Changes' button.
 
 == API Interaction provided by capture_configs js from the CDN ==
 
@@ -40,8 +39,8 @@ For more information, visit https://localiq.com.
 2. LocaliQ tracking settings page.
 
 == Changelog ==
-= 1.9.1 =
-* Remove clean_url filter to fix async loading of tracking code
+= 1.10 =
+* Tested with Wordpress 6.9.4
 
 = 1.9 =
 * Tested with Wordpress 6.4
@@ -57,7 +56,7 @@ For more information, visit https://localiq.com.
 
 = 0.4.0 =
 * Changed the tracking code name for greater uniqueness
-* Use enqueue_script to place capture JS on the page
+* Use enqueue_script to place capture JS on the page 
 
 = 0.3.0 =
 * Restructured plugin for easier distribution
